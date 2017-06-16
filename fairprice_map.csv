@@ -1,0 +1,268 @@
+,level,node_parent,node_name,node_label
+0,0.0,,Groceries,0.0
+1,1.0,0.0,Oil,1.0
+2,2.0,1.0,Others,2.0
+3,1.0,0.0,Noodles,3.0
+4,2.0,3.0,Vermicelli,4.0
+5,0.0,,Chilled & Frozen,5.0
+6,1.0,5.0,Frozen Meat & Fish,6.0
+7,2.0,6.0,Seafood,7.0
+8,0.0,,Fresh Food,8.0
+9,1.0,8.0,Fruits,9.0
+10,2.0,9.0,Exotic Fruits,10.0
+11,1.0,0.0,Canned Food,11.0
+12,2.0,11.0,Canned Vegetables,12.0
+13,1.0,0.0,Dried Food,13.0
+14,2.0,13.0,Beans,14.0
+15,1.0,5.0,Processed Seafood,15.0
+16,2.0,15.0,Otah,16.0
+17,0.0,,Health & Beauty,17.0
+18,2.0,2.0,Adult Diapers,18.0
+19,1.0,5.0,Milk & Yoghurt,19.0
+20,2.0,19.0,Chilled Milk,20.0
+21,0.0,,General Merchandise,21.0
+22,1.0,21.0,Batteries,22.0
+23,2.0,22.0,Rechargeable,23.0
+24,1.0,5.0,Frozen Others,24.0
+25,2.0,24.0,Bread,25.0
+26,1.0,8.0,Vegetables,26.0
+27,2.0,26.0,Root Vegetables,27.0
+28,1.0,5.0,Dairy Spreads,28.0
+29,2.0,28.0,Cream,29.0
+30,0.0,,Baby Needs,30.0
+31,1.0,30.0,Baby Care,31.0
+32,2.0,31.0,Baby Medication,32.0
+33,1.0,8.0,Prepacked Food,33.0
+34,2.0,33.0,Tofu,34.0
+35,1.0,17.0,Facial Care,35.0
+36,2.0,35.0,Shavers,36.0
+37,1.0,0.0,Rice,37.0
+38,2.0,37.0,White Rice,38.0
+39,0.0,,Beverages & Snacks,39.0
+40,1.0,39.0,Beverages,40.0
+41,2.0,40.0,UHT & Packaged Milk,41.0
+42,2.0,1.0,Olive Oil,42.0
+43,0.0,,Home Care,43.0
+44,1.0,43.0,Home Cleaners,44.0
+45,2.0,44.0,Disinfectant,45.0
+46,1.0,30.0,Baby Accessories,46.0
+47,2.0,46.0,Cleansing Brush,47.0
+48,1.0,43.0,Powder Detergent,48.0
+49,2.0,48.0,Regular,49.0
+50,0.0,,Housebrand,50.0
+51,1.0,50.0,Homeproud,51.0
+52,2.0,35.0,For Him,52.0
+53,1.0,50.0,Fairprice,53.0
+54,1.0,43.0,Liquid Detergent,54.0
+55,2.0,54.0,Concentrate,55.0
+56,1.0,17.0,Body Care,56.0
+57,2.0,56.0,Bar Soap,57.0
+58,0.0,,Beer & Wine,58.0
+59,2.0,26.0,Temperate Vegetables,59.0
+60,2.0,33.0,Ready Meals & Soups,60.0
+61,1.0,17.0,Health Food,61.0
+62,2.0,61.0,Vitamins,62.0
+63,1.0,5.0,Processed Meat,63.0
+64,2.0,63.0,Ham & Franks,64.0
+65,1.0,43.0,Dishwashing,65.0
+66,2.0,65.0,Anti-Bacterial,66.0
+67,2.0,25.0,Cakes & Snacks,67.0
+68,1.0,43.0,Air Fresheners,68.0
+69,2.0,68.0,Dehumidifier,69.0
+70,2.0,11.0,Canned Seafood,70.0
+71,1.0,21.0,Pet Food,71.0
+72,2.0,71.0,For Cats,72.0
+73,1.0,0.0,Soups,73.0
+74,2.0,73.0,Western Soup,74.0
+75,2.0,31.0,Baby Laundry Care,75.0
+76,2.0,44.0,Cleaning Accessories,76.0
+77,2.0,44.0,Drain Cleaner,77.0
+78,2.0,56.0,Hand Liquid Soap,78.0
+79,1.0,21.0,Stationery,79.0
+80,2.0,79.0,Paper Product,80.0
+81,2.0,56.0,Hand Sanitizer,81.0
+82,2.0,65.0,Auto Dishwashing,82.0
+83,2.0,73.0,Asian Soup & Stock,83.0
+84,2.0,26.0,Mushroom,84.0
+85,1.0,21.0,Electronics,85.0
+86,2.0,85.0,Home Appliances,86.0
+87,1.0,0.0,Baking Needs,87.0
+88,2.0,87.0,Coconut Products,88.0
+89,1.0,17.0,Medicine & First Aid,89.0
+90,2.0,89.0,Oral Medicine,90.0
+91,2.0,1.0,Blended Cooking Oil,91.0
+92,1.0,21.0,Party Needs,92.0
+93,2.0,92.0,Wrap & Foil,93.0
+94,1.0,21.0,Household Items,94.0
+95,1.0,17.0,Hair Care,95.0
+96,2.0,95.0,Hair Styling,96.0
+97,1.0,30.0,Milk Powder,97.0
+98,2.0,97.0,Growing Up Milk,98.0
+99,2.0,40.0,Water,99.0
+100,2.0,9.0,Tropical Fruits,100.0
+101,2.0,13.0,Chinese Herbs,101.0
+102,2.0,1.0,Corn Oil,102.0
+103,2.0,24.0,Pizza,103.0
+104,2.0,56.0,Body Wash,104.0
+105,1.0,8.0,Fish & Seafood,105.0
+106,2.0,105.0,Fish Cakes & Balls,106.0
+107,2.0,71.0,For Dogs,107.0
+108,2.0,40.0,Energy Drinks,108.0
+109,2.0,56.0,Deodorant,109.0
+110,2.0,35.0,Skin Care,110.0
+111,2.0,11.0,Canned Beans,111.0
+112,2.0,40.0,Coffee,112.0
+113,2.0,28.0,Processed Cheese,113.0
+114,2.0,33.0,Fresh Sauces & Paste,114.0
+115,2.0,15.0,Fish Finger,115.0
+116,2.0,28.0,Margarine,116.0
+117,1.0,58.0,Delicatessen,117.0
+118,2.0,117.0,Deli Ready To Eat,118.0
+119,1.0,17.0,Mouthcare,119.0
+120,2.0,119.0,Toothpaste,120.0
+121,2.0,31.0,Baby Wipes,121.0
+122,1.0,17.0,Sanitary Protection,122.0
+123,2.0,122.0,Feminine Hygiene,123.0
+124,2.0,44.0,Bathroom Cleaner,124.0
+125,2.0,44.0,Furniture Cleaner,125.0
+126,1.0,0.0,Bread Spread,126.0
+127,2.0,126.0,Peanut Butter & Choc,127.0
+128,2.0,87.0,Colouring & Flavours,128.0
+129,1.0,30.0,Baby Food,129.0
+130,2.0,129.0,Baby Cereal,130.0
+131,2.0,9.0,Temperate Fruits,131.0
+132,2.0,122.0,Pantiliner,132.0
+133,2.0,46.0,Feeding,133.0
+134,2.0,26.0,Hardy Vegetables,134.0
+135,1.0,0.0,Cereals,135.0
+136,2.0,135.0,Hot Cereal & Oats,136.0
+137,2.0,87.0,Jelly Powder & Mix,137.0
+138,2.0,31.0,Baby Cleanser,138.0
+139,2.0,33.0,Prepacked Noodles,139.0
+140,2.0,56.0,Hair Removal,140.0
+141,2.0,6.0,Lamb,141.0
+142,2.0,24.0,Fries,142.0
+143,2.0,40.0,Non-Carbonated Drinks,143.0
+144,2.0,94.0,Trolleys,144.0
+145,2.0,40.0,Tea,145.0
+146,2.0,25.0,Buns & Rolls,146.0
+147,2.0,31.0,Baby Toiletries,147.0
+148,1.0,50.0,Budget,148.0
+149,1.0,0.0,Condiments,149.0
+150,2.0,149.0,Sauces,150.0
+151,2.0,15.0,Breaded Seafood,151.0
+152,2.0,126.0,Honey & Maple Syrup,152.0
+153,2.0,28.0,Natural Cheese,153.0
+154,2.0,40.0,Carbonated Drinks,154.0
+155,2.0,129.0,Baby Rusk & Biscuits,155.0
+156,2.0,40.0,Cordial & Juice,156.0
+157,2.0,97.0,Follow On Formula,157.0
+158,1.0,43.0,Laundry Aids,158.0
+159,2.0,158.0,Laundry Others,159.0
+160,2.0,48.0,Low Suds,160.0
+161,2.0,40.0,Condensed Milk,161.0
+162,2.0,1.0,Soyabean Oil,162.0
+163,2.0,44.0,Floor Cleaner,163.0
+164,1.0,39.0,Snacks,164.0
+165,2.0,164.0,Jellies & Puddings,165.0
+166,2.0,22.0,Lithium,166.0
+167,2.0,3.0,Pasta,167.0
+168,2.0,40.0,Creamer,168.0
+169,2.0,1.0,Canola Oil,169.0
+170,2.0,63.0,Meat Balls,170.0
+171,2.0,164.0,Sweets,171.0
+172,2.0,56.0,Footcare,172.0
+173,2.0,126.0,Jam & Kaya,173.0
+174,2.0,26.0,Leafy Vegetables,174.0
+175,2.0,2.0,Disposable Underwear,175.0
+176,2.0,63.0,Chicken Finger Food,176.0
+177,2.0,164.0,Chocolates,177.0
+178,2.0,122.0,Sanitary Pad,178.0
+179,2.0,164.0,Biscuits,179.0
+180,2.0,61.0,Essence,180.0
+181,2.0,1.0,Sunflower Oil,181.0
+182,1.0,43.0,Paper Products,182.0
+183,2.0,182.0,Bathroom Tissue,183.0
+184,2.0,54.0,Delicate,184.0
+185,2.0,19.0,Chilled Soya Milk,185.0
+186,1.0,5.0,Chilled Drinks,186.0
+187,2.0,186.0,Chilled Juice Drink,187.0
+188,2.0,6.0,Pork,188.0
+189,2.0,85.0,Kitchen Appliances,189.0
+190,2.0,61.0,Health Supplements,190.0
+191,2.0,149.0,Dressing & Topping,191.0
+192,2.0,68.0,Home Freshener,192.0
+193,2.0,24.0,Dim Sum,193.0
+194,2.0,56.0,Body Lotion & Cream,194.0
+195,2.0,28.0,Butter,195.0
+196,2.0,87.0,Cake Mix,196.0
+197,2.0,1.0,Vegetable Oil,197.0
+198,1.0,8.0,Eggs,198.0
+199,2.0,198.0,Shell Eggs,199.0
+200,2.0,158.0,Laundry Softener,200.0
+201,2.0,87.0,Baking Flour,201.0
+202,2.0,97.0,Ready To Drink,202.0
+203,2.0,37.0,Instant Porridge,203.0
+204,2.0,25.0,Specialty Bread,204.0
+205,2.0,68.0,Insecticide,205.0
+206,2.0,92.0,Serviettes,206.0
+207,1.0,0.0,Sugar,207.0
+208,2.0,207.0,Sugar & Substitutes,208.0
+209,2.0,95.0,Hair Conditioner,209.0
+210,2.0,129.0,Baby Meals & Snacks,210.0
+211,2.0,35.0,Cosmetics,211.0
+212,2.0,149.0,Seasoning,212.0
+213,2.0,44.0,Kitchen Cleaner,213.0
+214,2.0,11.0,Canned Meat,214.0
+215,2.0,89.0,Masks,215.0
+216,2.0,25.0,Sandwich Bread,216.0
+217,2.0,22.0,Alkaline,217.0
+218,2.0,119.0,Mouthwash,218.0
+219,2.0,198.0,Preserved Eggs,219.0
+220,2.0,6.0,Chicken,220.0
+221,2.0,149.0,Vinegar,221.0
+222,2.0,19.0,Yoghurt,222.0
+223,1.0,5.0,Chilled Others,223.0
+224,2.0,223.0,Desserts,224.0
+225,1.0,50.0,Pasar,225.0
+226,2.0,129.0,Baby Juice,226.0
+227,2.0,56.0,Body Powder,227.0
+228,2.0,182.0,Wipes,228.0
+229,2.0,24.0,Meals,229.0
+230,2.0,117.0,Deli Retail Pack,230.0
+231,2.0,164.0,Nuts,231.0
+232,2.0,164.0,Chips & Crackers,232.0
+233,2.0,44.0,Glass Cleaner,233.0
+234,2.0,135.0,Breakfast Cereal,234.0
+235,2.0,44.0,Shoe Care,235.0
+236,2.0,19.0,Cultured Milk,236.0
+237,2.0,95.0,Hair Treatment,237.0
+238,2.0,11.0,Canned Fruits,238.0
+239,2.0,94.0,Accessories,239.0
+240,2.0,92.0,Storage Ware,240.0
+241,2.0,68.0,Car Freshener,241.0
+242,2.0,182.0,Facial Tissue,242.0
+243,2.0,164.0,Cereal & Muesli Bar,243.0
+244,2.0,119.0,Dental Aid,244.0
+245,2.0,89.0,Applied Medicine,245.0
+246,1.0,5.0,Fruits & Vegs,246.0
+247,2.0,31.0,Baby Diapers,247.0
+248,2.0,95.0,Shampoo,248.0
+249,2.0,3.0,Instant Noodles,249.0
+250,2.0,15.0,Crab Stick & Fish Balls,250.0
+251,2.0,92.0,Bbq Accessory,251.0
+252,2.0,182.0,Kitchen Towel,252.0
+253,2.0,40.0,Adult Milk Powder,253.0
+254,2.0,122.0,Tampon,254.0
+255,2.0,6.0,Beef,255.0
+256,2.0,97.0,Goat,256.0
+257,2.0,158.0,Laundry Bleach,257.0
+258,2.0,40.0,Soy & Organic Drinks,258.0
+259,2.0,164.0,Dried Fruits,259.0
+260,2.0,40.0,Choc & Malted Drinks,260.0
+261,2.0,31.0,Baby Bath & Skincare,261.0
+262,2.0,24.0,Cakes,262.0
+263,2.0,63.0,Satay,263.0
+264,2.0,40.0,Evaporated Milk,264.0
+265,2.0,92.0,Disposable Crockery,265.0
+266,2.0,119.0,Toothbrush,266.0

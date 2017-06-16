@@ -1,0 +1,67 @@
+,level,node_parent,node_name,node_label
+0,0.0,,Featured Brands,0.0
+1,1.0,0.0,Vitapet,1.0
+2,1.0,0.0,Yu Pin King,2.0
+3,1.0,0.0,Sunny Meadow,3.0
+4,1.0,0.0,Southdale Farm,4.0
+5,1.0,0.0,Captain's Catch,5.0
+6,1.0,0.0,Papa Alfredo,6.0
+7,1.0,0.0,First Choice,7.0
+8,1.0,0.0,Essential,8.0
+9,1.0,0.0,French Cellars,9.0
+10,1.0,0.0,Waitrose,10.0
+11,1.0,0.0,Casino,11.0
+12,0.0,,Health & Beauty,12.0
+13,1.0,12.0,Health Care,13.0
+14,1.0,12.0,Beauty Care,14.0
+15,0.0,,Household Essential,15.0
+16,1.0,15.0,Pet Care,16.0
+17,1.0,15.0,Home Care,17.0
+18,1.0,15.0,Laundry,18.0
+19,0.0,,Baby Care,19.0
+20,1.0,19.0,Diapers,20.0
+21,1.0,19.0,Baby Food,21.0
+22,1.0,19.0,Baby Milk,22.0
+23,1.0,15.0,Party Needs,23.0
+24,1.0,15.0,Tissue & Paper Towel,24.0
+25,1.0,15.0,Car Care,25.0
+26,1.0,15.0,Air Fresheners,26.0
+27,1.0,15.0,Dishwashing,27.0
+28,0.0,,Cellar,28.0
+29,1.0,28.0,Wines,29.0
+30,1.0,15.0,PAPER GOODS,30.0
+31,1.0,15.0,Household,31.0
+32,1.0,19.0,Toiletries,32.0
+33,0.0,,Beverages,33.0
+34,1.0,33.0,Chilled Drinks,34.0
+35,1.0,33.0,Beverages & Drinks,35.0
+36,1.0,19.0,Wellness for Life,36.0
+37,1.0,28.0,Ciders & Alcohol POP,37.0
+38,1.0,28.0,Beer,38.0
+39,1.0,28.0,Spirits & Mixers,39.0
+40,1.0,28.0,Sake & Umeshu,40.0
+41,1.0,28.0,Champagne & Sparkling Wines,41.0
+42,0.0,,Grocery,42.0
+43,1.0,42.0,Condiments & Dressings,43.0
+44,1.0,42.0,Noodle & Pasta,44.0
+45,1.0,42.0,Rice & Oil,45.0
+46,1.0,42.0,Baking Needs,46.0
+47,1.0,42.0,Snacks,47.0
+48,1.0,42.0,Chocolate,48.0
+49,1.0,42.0,Sweets,49.0
+50,1.0,42.0,Jam & Spread,50.0
+51,1.0,42.0,Canned Food,51.0
+52,1.0,42.0,Bread,52.0
+53,1.0,42.0,Breakfast Cereal,53.0
+54,1.0,42.0,Biscuits,54.0
+55,0.0,,"Dairy, Chilled & Frozen",55.0
+56,1.0,55.0,Eggs,56.0
+57,1.0,55.0,Chilled & Frozen,57.0
+58,1.0,55.0,Cheeses,58.0
+59,1.0,55.0,Dairy,59.0
+60,0.0,,Fresh,60.0
+61,1.0,60.0,Delicatessen,61.0
+62,1.0,60.0,Meat,62.0
+63,1.0,60.0,Seafood,63.0
+64,1.0,60.0,Vegetables,64.0
+65,1.0,60.0,Fruits,65.0

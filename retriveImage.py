@@ -5,8 +5,8 @@ import os,sys
 import urllib.request as ur
 from time import sleep
 
-FILE = "prime-supermarket.csv"
-FOLDER_NAME = "prime-supermarket_img"
+FILE = "coldstorage.csv"
+FOLDER_NAME = "coldstorage_img"
 
 try:
   os.mkdir(FOLDER_NAME)
@@ -17,7 +17,9 @@ def retreiveImg(url,folder):
   fname = url.split("/")[-1]
   fname = fname.split("?")[0]
   f = open(folder+"/"+fname,'wb')
-  f.write(ur.urlopen(url).read())
+  req = ur.Request(url)
+  req.add_header("User-Agent", "Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11")
+  f.write(ur.urlopen(req).read())
   f.close()
 
 dataFile = pd.read_csv(FILE, header = 0, encoding = "ISO-8859-1")
@@ -35,15 +37,15 @@ dataFile = dataFile.reset_index(drop=True)
 # print(dataFile['image'][0].split("/")[-1])
 for imgurl in dataFile['image']:
   print(imgurl)
-  # try:
-  fname = imgurl.split("/")[-1]
-  fname = fname.split("?")[0]
-  if(os.path.isfile(FOLDER_NAME+"/"+fname)):
-    print("EXISTING")
-  else:
-    # sleep(3)
-    retreiveImg(imgurl,FOLDER_NAME)
-    print("DOWNLOAD...")
-  # except:
-  #   print("ERROR")
-  #   pass
+  try:
+    fname = imgurl.split("/")[-1]
+    fname = fname.split("?")[0]
+    if(os.path.isfile(FOLDER_NAME+"/"+fname)):
+      print("EXISTING")
+    else:
+      # sleep(3)
+      retreiveImg(imgurl,FOLDER_NAME)
+      print("DOWNLOAD...")
+  except:
+    print("ERROR")
+    pass

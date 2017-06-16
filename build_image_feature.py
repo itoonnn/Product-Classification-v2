@@ -1,9 +1,13 @@
 from extractImage import *
 from precompute import *
 from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import StratifiedKFold
+
+
 
 store = "coldstorage"
-input_file = store+"_path.csv"
+input_file = store+".csv"
+opt="sift"
 
 img_root = store+"_img"
 df = pd.read_csv(input_file, header = 0)
@@ -27,48 +31,38 @@ print("Uniqued df by name : "+str(len(df['name'])))
 ####### label encoder
 number = LabelEncoder()
 y = df['category_path']
-x = df['img_file']
+x = df[['img_file','name']]
 y = y.astype(str)
 
-# cat_map = build_heirarchy_label(y) # use for label mapping
-# cat_map.to_csv(store+"_map.csv") 
-cat_map = pd.read_csv(store+"_map.csv", header = 0)
+## init mapping
+cat_map = build_heirarchy_label(y) # use for label mapping
+cat_map.to_csv(store+"_"+opt+"_map.csv") 
+cat_map = pd.read_csv(store+"_"+opt+"_map.csv", header = 0)
+
 y = y.str.split("->")
-y = map_label(y,cat_map)
-y = y.reset_index()
-y,remove_index = reduce_hierachical_class(y)
-print(y)
-print(remove_index)
-##### level 3
-y_level = y[(y['third_name']!=99)&(y['third_value']!=99)]
-groupby = ['top_name','second_name','third_name']
-freq_y = pd.DataFrame(y_level.groupby(groupby).size(),columns=['size'])
-freq_y['size'] = freq_y['size']/len(y)
-freq_y = freq_y.sort('size',ascending=False)
-print(freq_y)
-print(freq_y[freq_y['size']<0.01])
-###### level 2
-y_level = y[(y['second_name']!=99)&(y['second_value']!=99)]
-groupby = ['top_name','second_name']
-freq_y = pd.DataFrame(y_level.groupby(groupby).size(),columns=['size'])
-freq_y['size'] = freq_y['size']/len(y)
-freq_y = freq_y.sort('size',ascending=False)
-print(freq_y)
-print(freq_y[freq_y['size']<0.01])
-###### level 1
-y_level = y
-groupby = ['top_name']
-freq_y = pd.DataFrame(y_level.groupby(groupby).size(),columns=['size'])
-freq_y['size'] = freq_y['size']/len(y)
-freq_y = freq_y.sort('size',ascending=False)
-print(freq_y)
-print(freq_y[freq_y['size']<0.01])
-### reduce x follow y
+y_map = map_label(y,cat_map)
+# y = y.reset_index()
+y_map,remove_index = reduce_hierachical_class(y_map,cat_map)
+print(y_map)
+
+## re-mapping
+dump_hire_file(y_map,"image_feature/"+store+"_"+opt+"_map.txt")
+
+### reduce x follow y_map
 x = x.reset_index()
 x = x.drop(x.index[remove_index])
-print(x[0:10])
+y = y_map['node_label']
+x_img = img2vec(x['img_file'],img_root,opt='contextual',random_state = 2000)
+x_txt = x['name']
 
-# y = number.fit_transform(y)
-print(np.shape(df['img_file']))
+
+INDEX = split_data(x,y)
+
+# y_map = number.fit_transform(y_map)
 for i in range(0,10):
-  train,test,label_train,label_test = extractImageFeature(x,img_root,label=y,opt="sift",split=True,random_state=2000,save=True,GROUP=i)
+
+  train_img = x[INDEX[GROUP]['train']]
+  test_img = x[INDEX[GROUP]['test']]
+  label_train = y[INDEX[GROUP]['train']]
+  label_test = y[INDEX[GROUP]['test']]
+  train,test,label_train,label_test = extractImageFeature(train_img,test_img,label_train,label_test,img_root,opt=opt)

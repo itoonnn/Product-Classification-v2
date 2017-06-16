@@ -1,0 +1,102 @@
+,level,node_parent,node_name,node_label
+0,0.0,,Health & Beauty,0.0
+1,1.0,0.0,Health Care,1.0
+2,0.0,,Home Furnishing,2.0
+3,1.0,2.0,Cushions & Curtain,3.0
+4,0.0,,Groceries,4.0
+5,1.0,4.0,Snacks,5.0
+6,1.0,4.0,Ready to Drink,6.0
+7,1.0,4.0,Wine & Spirit,7.0
+8,0.0,,Leisure,8.0
+9,1.0,8.0,Outdoor,9.0
+10,1.0,0.0,Men Toiletries,10.0
+11,1.0,0.0,Skin Care,11.0
+12,1.0,0.0,Beauty Care,12.0
+13,0.0,,Baby Care,13.0
+14,1.0,13.0,Toiletries,14.0
+15,1.0,0.0,Hair Care,15.0
+16,1.0,0.0,Oral Care,16.0
+17,1.0,0.0,Feminine Care,17.0
+18,1.0,0.0,Body Care,18.0
+19,1.0,13.0,Equipment & Accessories,19.0
+20,1.0,13.0,Cleaning Needs,20.0
+21,0.0,,Dairy & Frozen,21.0
+22,1.0,21.0,Frozen Vegetables,22.0
+23,1.0,13.0,Diapers,23.0
+24,1.0,13.0,Milk For Mum,24.0
+25,1.0,13.0,Milk Powder,25.0
+26,1.0,21.0,Frozen Processed Food,26.0
+27,1.0,13.0,Cereal & Biscuit,27.0
+28,1.0,13.0,Food & Juice,28.0
+29,1.0,21.0,Vegetarian Food,29.0
+30,1.0,21.0,Ice Cream,30.0
+31,1.0,21.0,Chilled Processed Food,31.0
+32,1.0,21.0,Frozen Bakery,32.0
+33,1.0,21.0,Frozen Convenience Food,33.0
+34,0.0,,Toys & Stationery,34.0
+35,1.0,34.0,Stationery,35.0
+36,1.0,4.0,Cooking Oil,36.0
+37,0.0,,D.I.Y.,37.0
+38,1.0,37.0,Car Care,38.0
+39,0.0,,Fresh Produce,39.0
+40,1.0,39.0,Deli,40.0
+41,1.0,37.0,DIY,41.0
+42,1.0,39.0,Bakery,42.0
+43,0.0,,Household & Cleaning,43.0
+44,1.0,43.0,Laundry & Ironing Needs,44.0
+45,1.0,39.0,Seafood,45.0
+46,1.0,8.0,Bags & Luggage,46.0
+47,1.0,39.0,Meat,47.0
+48,1.0,37.0,Furniture,48.0
+49,1.0,2.0,Towels,49.0
+50,1.0,39.0,Vegetables,50.0
+51,1.0,2.0,Beds & Bedding,51.0
+52,1.0,43.0,Air Freshener,52.0
+53,1.0,43.0,Cleaning Tools,53.0
+54,1.0,39.0,Fruit,54.0
+55,0.0,,Electrical,55.0
+56,1.0,55.0,Electrical Accessories,56.0
+57,1.0,55.0,Home Entertainment,57.0
+58,1.0,55.0,Kitchen Appliances,58.0
+59,1.0,43.0,Paper Product,59.0
+60,1.0,55.0,Batteries & Lightings,60.0
+61,1.0,55.0,I.T. Gadgets,61.0
+62,1.0,55.0,Home Appliances ,62.0
+63,1.0,43.0,Laundry Cleaning,63.0
+64,1.0,55.0,Cooling,64.0
+65,1.0,43.0,Household Cleaning,65.0
+66,1.0,34.0,Toys,66.0
+67,1.0,8.0,Gardening,67.0
+68,1.0,8.0,Pet Food,68.0
+69,1.0,8.0,BBQ Essential,69.0
+70,1.0,43.0,Food Container,70.0
+71,1.0,43.0,Plastic Storage Container,71.0
+72,1.0,8.0,Cycling,72.0
+73,1.0,8.0,Sports & Fitness,73.0
+74,1.0,43.0,Baking,74.0
+75,1.0,43.0,Crockery & Drinkware,75.0
+76,1.0,43.0,Cookware & Gadgets,76.0
+77,0.0,,Clothing,77.0
+78,1.0,77.0,Active Wear,78.0
+79,1.0,77.0,Men's Wear,79.0
+80,1.0,77.0,Ladies' Wear,80.0
+81,1.0,77.0,Kids' Wear - Boys,81.0
+82,1.0,77.0,Kids' Wear - Girls,82.0
+83,1.0,21.0,Chilled Dessert,83.0
+84,1.0,21.0,Chilled Juice,84.0
+85,1.0,21.0,Eggs,85.0
+86,1.0,21.0,Yogurt,86.0
+87,1.0,21.0,Milk & Cream,87.0
+88,1.0,21.0,Chilled Cheese,88.0
+89,1.0,21.0,Dairy Spreads,89.0
+90,1.0,4.0,Cooking Needs,90.0
+91,1.0,4.0,Condiments/Dressing,91.0
+92,1.0,4.0,Canned Food,92.0
+93,1.0,4.0,Noodles & Pasta,93.0
+94,1.0,4.0,Rice,94.0
+95,1.0,4.0,Confectionery,95.0
+96,1.0,4.0,Biscuits,96.0
+97,1.0,4.0,Jam & Spreads,97.0
+98,1.0,4.0,Cereals,98.0
+99,1.0,4.0,Beverages,99.0
+100,1.0,4.0,Beer,100.0
